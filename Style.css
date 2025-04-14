@@ -1,0 +1,35 @@
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.subtitulo {
+  font-size: 1.5rem;         /* Tamanho um pouco menor que o h1 */
+  color: #666666;            /* Tom mais suave */
+  font-weight: normal;       /* Menos espesso que o título */
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+body {
+  display: flex;
+  justify-content: center;   /* Alinha ao centro na horizontal */
+  align-items: center;       /* Alinha ao centro na vertical */
+  height: vh;             /* Ocupa % da altura da tela */
+  flex-direction: column;    /* Coloca os elementos em coluna */
+  text-align: center;        /* Centraliza o texto dentro dos elementos */
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .subtitulo {
+    font-size: 1.2rem;
+  }
+
+  body {
+    padding: 1rem;
+  }
+}
